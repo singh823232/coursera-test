@@ -2,14 +2,11 @@
 
 * {
   box-sizing: border-box;
-}
-
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+
+
 
 body {
   font-family: "Lucida Grande";
@@ -25,31 +22,38 @@ a {
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding: 0 10px;
+  margin: auto;
 }
 
-.container h2{
-     
-}
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
+
+#particles-js {
+  margin-top: 8px;
+  position: relative;
+  padding-top: 180px;
+  padding-bottom:5%;
   height: 100vh;
   background-image: url(humau.jpg);
-
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
 }
-
+.top-wrapper {
+position: absolute;
+top: 20%;
+bottom: 50%;
+left: 5%;
+right: 5%;
+text-align:center;
+}
 
 
 .top-wrapper h1 {
   
   opacity: 1;
-  font-size: 45px;
+  
   letter-spacing: 5px;
   margin-bottom: 10px;
   margin-top: 5px;
@@ -66,7 +70,7 @@ a {
 
 .btn-wrapper {
   text-align: center;
-  margin: 80px 0;
+  margin: 10% 0;
 }
 
 .btn-wrapper p {
