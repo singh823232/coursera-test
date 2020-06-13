@@ -252,8 +252,18 @@ footer {
   opacity: 1;
 }
 
+.about{
+   width:100%;
+   color: forestgreen;
+   font-size: x-large;
+   margin-top: 2%;
+}
 
-
+.about:hover{
+  background-color: forestgreen;
+  cursor: pointer;
+  color: white;
+}
 
 
 
